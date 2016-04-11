@@ -1,5 +1,5 @@
 //
-//  DetailVC.swift
+//  ViewController.swift
 //  favorite-place
 //
 //  Created by Ryan Alexander Mansker on 4/7/16.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class DetailVC: UIViewController {
+class MainVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
 }
+
