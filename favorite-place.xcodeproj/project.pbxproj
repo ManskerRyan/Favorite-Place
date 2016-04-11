@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9479E6651CB83EC500FD5493 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9479E6641CB83EC500FD5493 /* NavBar.swift */; };
+		9479E6671CB8417800FD5493 /* ImagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9479E6661CB8417800FD5493 /* ImagesVC.swift */; };
 		94F24C451CB6B84E00BD55A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F24C441CB6B84E00BD55A1 /* AppDelegate.swift */; };
-		94F24C471CB6B84E00BD55A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F24C461CB6B84E00BD55A1 /* ViewController.swift */; };
+		94F24C471CB6B84E00BD55A1 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F24C461CB6B84E00BD55A1 /* MainVC.swift */; };
 		94F24C4A1CB6B84E00BD55A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F24C481CB6B84E00BD55A1 /* Main.storyboard */; };
 		94F24C4C1CB6B84E00BD55A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F24C4B1CB6B84E00BD55A1 /* Assets.xcassets */; };
 		94F24C4F1CB6B84E00BD55A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F24C4D1CB6B84E00BD55A1 /* LaunchScreen.storyboard */; };
@@ -17,9 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9479E6641CB83EC500FD5493 /* NavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		9479E6661CB8417800FD5493 /* ImagesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesVC.swift; sourceTree = "<group>"; };
 		94F24C411CB6B84E00BD55A1 /* favorite-place.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "favorite-place.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F24C441CB6B84E00BD55A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94F24C461CB6B84E00BD55A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94F24C461CB6B84E00BD55A1 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		94F24C491CB6B84E00BD55A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94F24C4B1CB6B84E00BD55A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94F24C4E1CB6B84E00BD55A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				94F24C561CB6C21A00BD55A1 /* OrangeButton.swift */,
+				9479E6641CB83EC500FD5493 /* NavBar.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -88,8 +93,9 @@
 		94F24C5A1CB6C48E00BD55A1 /* Control */ = {
 			isa = PBXGroup;
 			children = (
-				94F24C461CB6B84E00BD55A1 /* ViewController.swift */,
+				94F24C461CB6B84E00BD55A1 /* MainVC.swift */,
 				94F24C5D1CB6C67100BD55A1 /* DetailVC.swift */,
+				9479E6661CB8417800FD5493 /* ImagesVC.swift */,
 			);
 			name = Control;
 			sourceTree = "<group>";
@@ -165,7 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94F24C471CB6B84E00BD55A1 /* ViewController.swift in Sources */,
+				9479E6671CB8417800FD5493 /* ImagesVC.swift in Sources */,
+				9479E6651CB83EC500FD5493 /* NavBar.swift in Sources */,
+				94F24C471CB6B84E00BD55A1 /* MainVC.swift in Sources */,
 				94F24C5E1CB6C67100BD55A1 /* DetailVC.swift in Sources */,
 				94F24C571CB6C21A00BD55A1 /* OrangeButton.swift in Sources */,
 				94F24C451CB6B84E00BD55A1 /* AppDelegate.swift in Sources */,
@@ -320,6 +328,7 @@
 				94F24C551CB6B84E00BD55A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
